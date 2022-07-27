@@ -1,4 +1,12 @@
 
+# Spatial Resolution Enhancement of Daily Fire Maps using MODIS Active Fire Data
+
+## Colab File
+How to plot Modis and VIIRS grid?
+Download specific years CSV file from following urls:Firms's website[https://firms.modaps.eosdis.nasa.gov/download/]. 
+Use the dataset to plot grids through the colab file.
+
+
 The brief description for each file is shown in the table below:
 
 <table>
