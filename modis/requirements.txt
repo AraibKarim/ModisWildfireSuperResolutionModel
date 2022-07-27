@@ -1,0 +1,12 @@
+torch>=1.2
+torchvision
+matplotlib
+argparse
+path
+tqdm
+scipy
+pyModis
+pymp-pypi
+opencv-python
+gdal
+scikit-image
