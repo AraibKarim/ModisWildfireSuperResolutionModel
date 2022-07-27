@@ -36,21 +36,17 @@ User could use the following command to download automatically MODIS dataset wit
 python modis_downloader.py --username <username> --password <password> 
 ```
 
-By assigning values to '--year_begin' and '--year_end', user can select the time range for downloading data, from year_begin to year_end. Default 'year_begin' is 2020, 'year_end' is 2021.
-```
-python modis_downloader.py --year_begin <year_begin> --year_end <year_end> --username <username> --password <password> 
-```
 
 After downloading the raw data for the desired years, data need to be pre-processed, which involves cropping, cloud and sea pixels elimination and downsampling:
 ```
-python modis_data_preprocessing.py --year_begin <year_begin> --year_end <year_end>
+python modis_data_preprocessing.py 
 ```
 
 ## 2. Train and test **Multi-residual U-Net**
 
 Our principle contribution in this project is to design and implement a new deep learning model based on U-net architecture called **Multi-residual U-Net**. The architecture of this model is shown as below:
 
-![MRUnet](images/unet_ushape_ver2_legends_annotated_final-1.png)
+![MRUnet](modis/images/unet_ushape_ver2_legends_annotated_final-1.png)
 
 ### Train
 To train the network with your tif data, please make sure to put all of the data into a folder and run the following command:
