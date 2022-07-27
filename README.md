@@ -63,7 +63,7 @@ python train.py --datapath <path/to/training/tifs/directory> --model_name <name 
 
 ## 3. Result
 
-![Results](images/result.png)
+![Results](modis/images/result.png)
 
 
 
